@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-container{
+  height: 100vh;
+}
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 48px;
+  left:350px ;
+  background-color: #fff;
+  gap: 48px;
+  border-radius: 18px;
+  padding: 8px;
+}
+.btn-container > button{
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: x-large;
+}
