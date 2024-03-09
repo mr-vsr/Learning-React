@@ -45,11 +45,11 @@ export class AuthService {
     //This function get hold of the current user and can be used to check whether the user surfing the website is logged in or not
     async getCurrentUser() {
         try {
-            return await this.account.get();//Appwrite has account.get() method to get the current user
+            return await this.account.get();
         } catch (error) {
-            // throw error;
-            console.log("Appwrite error : : getCurrentUser : : error ", error);
+            console.log("Appwrite error :: getCurrentUser :: error", error);
         }
+
         return null;
     }
 
