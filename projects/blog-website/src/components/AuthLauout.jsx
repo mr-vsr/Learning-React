@@ -9,6 +9,7 @@ export default function Protected({children, authentication = true}) {
     const authStatus = useSelector(state => state.auth.status)
 
     useEffect(() => {
+        console.log(children)
         //TODO: make it more easy to understand
 
         // if (authStatus ===true){

@@ -2,7 +2,7 @@
 import conf from '../conf/conf'
 import { Client, Account, ID } from "appwrite";
 
-//A class containing all the authentication services. Using a object of the class we can use any of the service.
+//A class containing all the authentication services. Using  a object of the class we can use any of the service.
 export class AuthService {
     client = new Client();//This is the client and we proceed further when a client is created.
     account; //This is a account for a particular client.
